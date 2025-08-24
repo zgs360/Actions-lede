@@ -16,8 +16,8 @@ permissions: write-all
 on:
   repository_dispatch:
   workflow_dispatch:
-  schedule:
-   - cron: 0 20 * * 4
+  #schedule:
+  # - cron: 0 20 * * 4
    #     分,时,日,月,周。每周五 20时执行一次 (UTC时间)
   
 env:
@@ -25,7 +25,8 @@ env:
   ENV_SH: scripts/environment.sh
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: configs/packages-x86.txt
+  # CONFIG_FILE: configs/packages-x86.txt
+  CONFIG_FILE: configs/x86.txt
   CONFIG_5G: configs/packages-5G.txt
   SETTINGS_SH: scripts/init-settings.sh
   PACKAGES_SH: scripts/packages.sh
