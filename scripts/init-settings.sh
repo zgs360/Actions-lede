@@ -11,7 +11,7 @@ chmod 644 files/etc/config/*
 # sed -i 's/dark/light/g' feeds/luci/applications/luci-app-design-config/root/etc/config/design
 
 #修改密码
-sed -i 's/^root:.*:/root:$1$q6Qf.IUu$Bd2tIMFHYYNOsmsIRBwHC0:19650:0:99999:7:::/g' package/base-files/files/etc/shadow
+sed -i 's/^root:.*:/root:$1$5CBDkDyR$C3fBYnrHlI.0DnzY8BpLU1:20215:0:99999:7:::/g' package/base-files/files/etc/shadow
 
 
 echo "init-settings executed successfully!"
