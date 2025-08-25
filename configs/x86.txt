@@ -17,7 +17,7 @@ CONFIG_PACKAGE_kmod-usb-net-rndis=y  # USB网络共享支持
 CONFIG_PACKAGE_kmod-usb-hid=y        # USB HID设备支持
 
 # 主题（保留argon作为备用主题）
-CONFIG_PACKAGE_luci-theme-argon=y
+CONFIG_PACKAGE_luci-theme-argon=n
 
 # Luci应用（仅保留必要应用）
 CONFIG_PACKAGE_luci-app-openclash=y
